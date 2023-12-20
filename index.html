@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Pusher</title>
+    <style>
+      .main-container {
+        width: 1580px;
+        height: 769px;
+        background-color: rgba(245, 248, 250, 1);
+       
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+      }
+      ul {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 20px;
+        list-style: none;
+      }
+      li {
+        margin: 5px;
+        margin-right: 70px;
+      }
+      .nav-line {
+        width: 1370px;
+        height: 2px;
+        background-color: rgba(224, 230, 234, 1);
+        margin: 0 auto;
+      }
+      img {
+        width: 200px;
+        height: 39px;
+        margin-inline-start: 85px;
+        margin-top: 35px;
+      }
+      li button {
+        width: 60px;
+        height: 20px;
+        left: 385px;
+        justify-content: center;
+        margin-left: -50px;
+      }
+      li a{
+        text-decoration: none;
+      }
+      .checkout {
+        font-family: Lato;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        color: rgba(29, 44, 60, 1);
+        text-shadow:rgba(0, 0, 0, 0.25);
+        text-align: left;
+        margin-inline-start: 25px;
+      }
+      .liner{
+        background-color:rgba(224, 230, 234, 1) ;
+        height: 2px;
+        margin-top: 25px;
+
+      }
+      .heading{
+        display: flex;
+        margin-inline-start: 25px;
+        margin-top: 25px;
+      }
+      .circle{
+        border: 1px solid rgba(84, 139, 197, 1);
+        color: rgba(84, 139, 197, 1);
+        width:20px;
+        height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        
+      }
+      .Name-div{
+        display: flex;
+        justify-content: space-between;
+        margin-inline-start: 25px;
+        margin-top: 10px;
+      }
+      .last-div{
+        margin-right: 15px;
+      }
+      .flex1{
+        background-color: rgba(255, 255, 255, 1);
+        width: 520px ;
+        height: 600px ;
+        margin-top: ;
+      }
+      .Email-div{
+        margin-inline-start: 25px;
+        margin-top: 10px;
+      }
+      .Email-div input{
+        width: 325px;
+        height: 24px;
+        border: none;
+      }
+      .card-div{
+        margin-inline-start: 25px;
+      }
+      .pusher{
+        margin-inline-start: 25px;
+        background: rgba(3, 142, 125, 1);
+        color: white;
+        width: 430px;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+
+      }
+      input{
+        background-color: rgba(237, 239, 242, 1)
+      }
+      .Name-div input{
+        width: 200px;
+        height: 24px;
+        border: none;
+      }
+      .card-div input{
+        width:435px ;
+        height:24px ;
+        border: none;
+      }
+      section{
+        display: flex;
+       margin-inline-start: 75px;
+       margin-top: 15px;
+      }
+      .Stripe{
+        background-color: rgba(86, 100, 115, 1);
+        width: 125px;
+        height: 20px ;
+        color: white;
+        margin: 0 auto;
+        margin-top: 25px;
+        opacity: 50.2%;
+      }
+      .foot-span{
+        font-weight: 400px;
+        font-size: 14px;
+        color: rgba(29, 44, 60, 1);
+      }
+      .flex2{
+        width: 312px ;
+        height: 620px ;
+        background-color: rgba(17, 121, 191, 1);
+        color: white;
+      }
+      .flex-div{
+        display: flex;
+        width: 740px ;
+        height: 650px ;
+        margin: 0 auto;
+        margin-top: 25px;
+      }
+      .year-div{
+        color: white;
+      }
+      .checkers{
+        display: flex;
+        
+      }
+      .shape{
+        width: 10px;
+        height: 10px;
+        
+      }
+      .shapers{
+        margin-top: 5px;
+        margin: 2px;
+      }
+      .free-div{
+        margin-inline-start: 35px;
+        margin-top: 30px;
+      }
+      .client-div{
+        margin-inline-start: 35px;
+      }
+      .boxline{
+        background-color: rgba(255, 255, 255, 1);
+        width: 224px ;
+        height: 2px;
+        opacity: 20.05%;
+        margin-top: 30px;
+        margin-inline-start: 35px;
+      }
+      .push-div{
+        margin-inline-start: 35px;
+        margin-top: 30px;
+        font-style: italic;
+        font-weight: 400;
+        font-size:18px ;
+      }
+      .overall{
+        display: flex;
+        margin-top: -20px;
+      }
+      .icon-div{
+        display: flex;
+      }
+      .icons{
+        width: 10px;
+        height: 10px;
+        margin-inline-start: 35px;
+        display: flex;
+      }
+      .icons2{
+        margin-inline-start: 15px;
+        margin-top: 30px;
+      }
+      button a{
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <nav>
+          <img src="./images/pusher.png">
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Learn More</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+            <li><button>Account</button></li>
+          </ul>
+        </nav>
+        <div class="nav-line"></div>
+      </div>
+      <div class="flex-div">
+        <div class="flex1">
+          <p class="checkout">Checkout</p>
+          <div class="liner"></div>
+          <div class="heading">
+            <div class="circle">1</div>
+            <div>Your basic information</div>
+          </div>
+          <div class="Name-div">
+            <div>
+                <label>First Name</label><br>
+                <input type="text" name="First name" id="fname" placeholder="Ayomide">
+            </div>
+            <div class="last-div">
+                <label>Last Name</label><br>
+                <input type="text" name="Last name" id="Lname" placeholder="Aduroja">
+            </div>
+        </div>
+        <div class="Email-div">
+            <label>Email</label><br>
+        <input type="Email" name="Email" id="Email" placeholder="rojamide@gmail.com">
+        </div>
+        <div class="liner"></div>
+        <div class="heading">
+            <div class="circle">2</div>
+            <div>Your Payment information</div>
+          </div>
+          <div class="card-div">
+            <label>Credit card</label><br>
+            <input type="text" id="credit card" placeholder="card number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mm/yy&nbsp; cvc">
+          </div>
+          <div class="liner"></div>
+          <button class="pusher"><a href="#">Buy Wp Pusher</a></button>
+          
+            <section>
+                <div class="circle">?</div>
+            <div>Need any help? <span class="foot-span">Don't hesistate to contact<br>support</span></div>
+            </section>
+            <div class="Stripe">Powered by stripe</div>
+        </div>
+        <div class="flex2">
+            <div class="free-div">
+                <p>Freelancer</p>
+                <div class="year-div">
+                    <sup style="font-size: 20px; font-weight: 300;">$</sup>
+                    <span><span style="font-size: 24px; font-weight: 300;">99</span>
+                    <span style="font-size: 16px; font-weight: 700;">/year</span>
+                </div>
+                <div><em>Automatically renews<br> after one year</em></div>
+            </div>
+            <div class="icon-div">
+                <div>
+                    <img class="icons" src="./images/sv sh.svg">
+                    <img class="icons" src="./images/sv sh.svg">
+                    <img class="icons" src="./images/sv sh.svg">
+                </div>
+                <div>
+                    <p class="icons2">Use on 5 client sites</p>
+                    <p class="icons2">private repositories</p>
+                    <p class="icons2">Email support</p> 
+                </div>
+            </div>
+                    <div class="client-div">
+                        <p>Need 20 client sites?<br><a href="#" style="color: white; font-weight: 700; font-size: 16px;">Switch to the Agency plan
+                        </a></p>
+                    </div>
+                    <div class="boxline"></div>
+                    <DIV class="push-div">FTP is horrible to deal with.<br> WP Pusher solves that issue,<br> and the customer 
+                        support is<br> awesome!</DIV>
+                     <div class="overall">
+                        <p> <img class="shape" src="./images/Bitmap.svg">&nbsp;Kirk Beard</p>
+                     </div>          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
